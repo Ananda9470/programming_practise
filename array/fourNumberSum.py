@@ -1,6 +1,6 @@
 import itertools
 
-# O(n^4)|O(n)
+# O(n^4) | O(n)
 def fourNumberSum1(arr, s):
     all_sums = []
     for quad in itertools.combinations(arr, r=4):
@@ -12,8 +12,8 @@ def fourNumberSum1(arr, s):
 
 from collections import defaultdict
 
-# O(n^3)|O(n^2)
-# Θ(n^2)|O(n^2)
+# O(n^3) | O(n^2)
+# Θ(n^2) | O(n^2)
 def fourNumberSum2(arr, s):
 
     arr_hash = defaultdict(lambda: [])

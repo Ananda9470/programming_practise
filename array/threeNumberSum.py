@@ -1,7 +1,7 @@
 import itertools
 
 
-# O(n^3)|O(1)
+# O(n^3) | O(1)
 def threeNumberSum1(arr, s):
     all_trips = []
     for triplet in itertools.combinations(arr, r=3):
@@ -10,7 +10,7 @@ def threeNumberSum1(arr, s):
             all_trips.append(sorted(triplet))
     return all_trips
 
-# O(n^2)|O(n)
+# O(n^2) | O(n)
 def threeNumberSum2(arr, s):
     arr = sorted(arr)
     all_trips = []
@@ -33,7 +33,7 @@ def threeNumberSum2(arr, s):
 
     return all_trips
 
-# O(n^2)|O(1)
+# O(n^2) | O(1)
 # Is not a complete solution because doesn't order the final array
 def threeNumberSum3(arr, s):
 

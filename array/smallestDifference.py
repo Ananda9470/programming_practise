@@ -1,4 +1,4 @@
-# max{O(nlog(n) + O(mlog(m))|O(1)
+# max{O(nlog(n) + O(mlog(m)) | O(1)
 def smallestDifference(arrayOne, arrayTwo):
 
     arrayOne = sorted(arrayOne)

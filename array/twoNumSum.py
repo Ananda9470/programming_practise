@@ -1,6 +1,6 @@
 import itertools
 
-# O(n^2)|O(1)
+# O(n^2) | O(1)
 def twoNumberSum1(arr, s):
     for pair in itertools.combinations(arr, r=3):
         print(pair)
@@ -9,7 +9,7 @@ def twoNumberSum1(arr, s):
             return sorted(pair)
     return []
 
-# O(n)|O(n)
+# O(n) | O(n)
 def twoNumberSum2(arr, s):
     nums = set()
     for n in arr:
@@ -20,7 +20,7 @@ def twoNumberSum2(arr, s):
             nums.add(n)
     return []
 
-# O(nlog(n))|O(1)
+# O(nlog(n)) | O(1)
 def twoNumberSum3(arr, s):
     arr = sorted(arr)
 
