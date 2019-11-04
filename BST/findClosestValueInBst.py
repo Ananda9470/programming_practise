@@ -22,6 +22,7 @@ def findClosestValueInBst1(tree, target):
                 return closest
         else:
             return tree.value
+
 # O(n) | O(n)
 # Θ(log(n)) | O(log(n)
 def findClosestValueInBst2(tree, target):
